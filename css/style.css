@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+html {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #222222;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    padding-inline-start: 30px;
+    padding: 10px 30px 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.logopizza {
+    padding: 10px 0px 10px 20px;
+}
+
+main {
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px
+}
+
+main section {
+    width: 49%;
+    height: 350px;
+    margin: 30px 0;
+    padding: 0 40px;
+}
+
+.delivery {
+    background-image: url(../Img/Delivery.png);
+    background-repeat: no-repeat;
+    }
+
+.podiopizza {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    color: #FC200C;
+    margin-top: 25px;
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+
+ol li{
+    margin: 12px 0;
+}
+
+.fotopodio {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+
+footer {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    Height: 150px;
+    padding: 10px 30px 10px 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+footer img {
+    width: 95%;
+}
+
+ul li {
+    margin: 12px 0;
+}
